@@ -1,0 +1,36 @@
+name: musicshow
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  flutter_widget_from_html: ^0.8.0 # abrir dentro do app
+  web_socket_channel: ^2.4.0
+  cupertino_icons: ^1.0.8
+  file_picker: ^9.0.1
+  open_file: ^3.3.2 # abrir fora do app
+  provider: ^6.0.0
+  http: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
